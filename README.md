@@ -41,7 +41,7 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 ```
 
-5. Use pip to install dependencies for the sample application
+5. Use pip to install dependencies for the script
 
 ```
 $ pip install -r requirements.txt
