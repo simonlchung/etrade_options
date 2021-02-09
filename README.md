@@ -8,7 +8,7 @@ This Python script calculates the Option Premium ROI using the ETRADE API endpoi
 
 * [Requirements](#requirements)
 * [Setup](#setup)
-* [Running Code](#running-code)
+* [Running the Script](#running-the-script)
 
 ## Requirements
 
@@ -47,7 +47,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-## Running the script
+## Running the Script
 
 ```
 $ cd etrade_options
