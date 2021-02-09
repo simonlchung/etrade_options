@@ -1,6 +1,8 @@
 # E*Trade Option Premium ROI Calculator
 
-This Python application calculates the Option Premium ROI using the ETRADE API endpoints.
+This Python script calculates the Option Premium ROI using the ETRADE API endpoints. It is base on the following 2 sites
+* https://developer.etrade.com/home
+* https://github.com/jessecooper/pyetrade
 
 ## Table of Contents
 
@@ -10,9 +12,9 @@ This Python application calculates the Option Premium ROI using the ETRADE API e
 
 ## Requirements
 
-In order to run this sample application you need the following three items:
+In order to run this script you need the following three items:
 
-1. Python 3 - this sample application is written in Python and requires Python 3. If you do not
+1. Python 3 - this script is written in Python and requires Python 3. If you do not
 already have Python 3 installed, download it from
 
    [`https://www.python.org/downloads/`](https://www.python.org/downloads/).
