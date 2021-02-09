@@ -47,7 +47,7 @@ $ source venv/bin/activate
 $ pip install -r requirements.txt
 ```
 
-6. Run the application
+## Running the script
 
 ```
 $ cd etrade_options
@@ -66,4 +66,24 @@ RIOT Mar 26 '21 $30 Put      -24.74%        n       45   16.67% / 135.19%       
 RIOT Jun 18 '21 $30 Put      -24.74%        n      129   31.67% / 89.60%          20.50         9.50  9.50 / 10.10      660 / 376           180             220          -0.21 / (79%)             -0.05  180.07%
 RIOT Sep 17 '21 $30 Put      -24.74%        n      220   42.00% / 69.68%          17.40        13.06  12.60 / 14.20     616 / 592            21              12          -0.18 / (82%)             -0.03  179.34%
 RIOT Jan 21 '22 $30 Put      -24.74%        n      346   50.83% / 53.62%          14.75        15.30  15.25 / 15.65      33 / 421           839             630          -0.16 / (84%)             -0.02  164.38%
+```
+
+```
+$ python3 get_option_chain.py -h
+usage: get_option_chain.py [-h] [-t TICKER] [-s STRIKE] [-n NUMBER_OF_STRIKE] [-e NUMBER_OF_EXPIRY] [-c CHAIN]
+
+Example: get_option_chain.py -t TSLA -s 800 -c Put
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -t TICKER, --ticker TICKER
+                        Stock Ticker
+  -s STRIKE, --strike STRIKE
+                        strike price
+  -n NUMBER_OF_STRIKE, --number_of_strike NUMBER_OF_STRIKE
+                        Number of strike prices to pull for a given option expiry
+  -e NUMBER_OF_EXPIRY, --number_of_expiry NUMBER_OF_EXPIRY
+                        Number of expiry to pull for a given option
+  -c CHAIN, --chain CHAIN
+                        Option Type Call or Put
 ```
