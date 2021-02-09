@@ -48,6 +48,10 @@ $ pip install -r requirements.txt
 ```
 
 ## Running the Script
+The first time running the script, it will open your default web-browser asking you to login to E*Trade to get a text code which you can past into the script for the oAuth.
+```
+Please accept agreement and enter text code from browser:
+```
 
 ```
 $ cd etrade_options
