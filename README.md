@@ -24,7 +24,7 @@ already have Python 3 installed, download it from
 
 ## Setup
 
-1. Edit [`config.ini`](etrade_options/config.ini)
+1. Edit [`config.ini`](config.ini)
 with your consumer key and consumer secret; copy these from your application's keys' section
 
 3. Create the virtual environment by running the Python's venv command; see the command syntax below
