@@ -48,7 +48,7 @@ $ pip install -r requirements.txt
 ```
 
 ## Running the Script
-The first time running the script, it will open your default web-browser asking you to login to E*Trade and accept the *Indicate Terms Agreement* to get a text code which you can paste into the script so that you have access to your account to pull option details.
+The first time running the script, it will open your default web-browser asking you to login to E*Trade and accept the **Indicate Terms Agreement** to get a text code which you can paste into the script so that you have access to your account to pull option details.
 ```
 $ python3 get_option_chain.py -t riot -s 30 -c Put -e 10
 Please accept agreement and enter text code from browser:
