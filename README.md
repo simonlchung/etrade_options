@@ -55,7 +55,6 @@ Please accept agreement and enter text code from browser:
 ```
 
 ```
-$ cd etrade_options
 $ python3 get_option_chain.py -t riot -s 30 -c Put -e 10
 
 Current Stock Price: 39.86
