@@ -21,7 +21,7 @@ already have Python 3 installed, download it from
 
 2. An [E*TRADE](https://us.etrade.com) account
 
-3. E*TRADE consumer key and consumer secret.
+3. E*TRADE consumer key and consumer secret. The prod key, not sandbox key.
 
 
 ## Setup
