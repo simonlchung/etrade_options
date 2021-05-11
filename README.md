@@ -44,7 +44,7 @@ $ source venv/bin/activate
 5. Use pip to install dependencies for the script
 
 ```
-$ pip install -r requirements.txt
+$ pip3 install -r requirements.txt
 ```
 
 ## Running the Script
